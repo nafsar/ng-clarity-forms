@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-Use Clarity npm installation: ng add @clr/angular for fresh installtion of Clarity UI packcages
+Use Clarity npm schematics installation: ng add @clr/angular for fresh installtion of Clarity UI packcages
 
 ## Code scaffolding
 
