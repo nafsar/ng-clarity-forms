@@ -1,0 +1,16 @@
+<p>Clarity UI</p>
+
+<form clrForm [formGroup]="form" (ngSubmit)="submitForm()">
+    <clr-input-container>
+        <label>Email</label>
+        <input clrInput formControlName="email" type="email">
+        <clr-control-error *clrIfError="'email'">Valid email is required</clr-control-error>
+    </clr-input-container>
+
+    <clr-password-container>
+        <label>Password</label>
+        <input clrPassword formControlName="password" type="password" />
+        <clr-control-error *clrIfError="'required'">Password Required</clr-control-error>
+    </clr-password-container>
+    <button class="login">Login</button>
+</form>
